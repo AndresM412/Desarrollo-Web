@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirCNC - Registro</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registro</h2>
+        <form id="register-form">
+            <label for="new-username">Nombre de Usuario:</label>
+            <input type="text" id="new-username" name="new-username" required>
+            <span id="username-error" class="error-message"></span>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="new-password">Contraseña:</label>
+            <input type="password" id="new-password" name="new-password" required>
+            <span id="password-error" class="error-message"></span>
+            
+            <button type="submit">Registrar</button>
+        </form>
+        <p>¿Ya tienes cuenta? <a href="index.html">Inicia sesión aquí</a></p>
+    </div>
+
+    <script src="../js/register.js"></script>
+</body>
+</html>
+
